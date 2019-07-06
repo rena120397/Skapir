@@ -1,0 +1,191 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+.jumbotron{
+    margin-bottom: 0px;
+    background-color: white;
+}
+.f50{
+    font-size: 50px;
+    color: #68cccc;
+}
+.f20{
+    font-size: 23px;
+}
+.letratitulo{
+    font-size: 25px;
+}
+.none{
+    display: none;
+}
+.f16{
+    font-size: 16px;
+}
+.f30{
+    font-size: 22px;
+}
+.jumbo{
+  --color    : rgba(38,208,206,.6);
+  --color2:  rgba(26,41,128,.6);
+  background : linear-gradient(to right, rgba(26,41,128,.6), rgba(38,208,206,.6)),
+               url(../img/empresa.jpg) center / cover; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    background-size: 100% 100%;
+    padding-top:8.6rem;
+    height: 35rem;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+.navbar{
+    padding-top: 20px;
+    color:white;
+}
+.navbar-nav{
+    padding-right: 4em;
+}
+.ska{
+    width: 100%;
+}
+.skap{
+    width: 2em;
+    height: 2em;
+    margin-right: 10px;
+    transition: transform 1s ease-out;
+}
+.skap:hover{
+    transform: rotate(360deg);
+}
+.fas{
+    color: #68cccc;
+    transition: transform 1s ease-out;
+}
+.fas:hover{
+    transform: rotate(360deg);
+}
+.nav-item{
+    text-decoration: none;
+}
+.nav-item:hover{
+    color: #00ADEF;
+    transition: .7s;
+}
+#menu{
+    transition: all 0.6s ease-out;
+}
+.op{
+    background-color:rgb(220, 226, 235); 
+}
+
+.fot{
+    background : linear-gradient(to right, rgba(0,70,127,.6), rgba(165,204,130,.6)),
+               url(../img/empresa.jpg) center / cover; 
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: polygon(0 5%, 100% 0, 100% 99%, 0% 100%);
+    padding-top:130px;
+}
+@media screen and (max-width: 768px) {
+    .jumbo {
+    clip-path: polygon(0 0, 100% 0, 100% 98%, 0% 100%);
+  }
+  .fot{
+     clip-path: polygon(0 1%, 100% 0, 100% 99.5%, 0% 100%); 
+  }
+  .navbar-nav{
+    padding-right: 0;
+}
+
+}
+/*precio*/
+.card-img-top{
+    width: 100%;
+    height: 15rem;
+}
+.red{
+    color:red;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 40px;
+    transition: .7s ease;
+}
+.card:hover{
+    margin-top:-20px;
+    
+    filter:brightness(0.89);
+}
+.blue{
+    background-color: #68cccc;
+    color:white;
+}
+.blue:hover{
+    background-color: white;
+    color: #68cccc;
+    border: 1px solid #68cccc;
+}
+
+/*CONTACTO*/
+.mitad{
+    height: 40%;
+}
+
+/*NOSOTROS*/
+
+
+iframe{
+    width: 100%;
+    height: 80%;
+    margin-bottom: 40px;
+}
+.frame{
+    border-radius: 25px;
+    border: 2px solid red;
+}
+.pad20{
+    margin-bottom: 25%;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #353942;
+}
+footer a { 
+color: white;
+} 
+a:hover{
+    text-decoration: none;
+    color:#00ADEF;
+}
+.footer-copyright{
+background-color: #292b30;
+}
+.about .social-media ul li a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 16px;
+    color:  #00ADEF;
+    border: 1px solid  #fff;
+    text-align: center;
+    transition: font-size 0.9s ease-out;
+    
+}
+.about .social-media ul li a:hover {
+    background: #00ADEF;
+    color: #fff;
+    border-color: white;
+    font-size: 22px;
+    
+}
+.about .social-media {
+    margin-top: 15px; 
+}
+.fa-check{
+    color:white;
+}
